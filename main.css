@@ -2,12 +2,11 @@
 	box-sizing: border-box;
 }
 main {
-	max-width: 1000px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 25px;
 }
-nav {
+.nav {
 	background-color: orange;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -17,24 +16,23 @@ nav {
 h2 {
 	margin: 0;
 	margin-bottom: 10px;
-
 }
 
-.p {
+.row p {
 	margin: 0;
 	padding-left: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-.img {
-	height: 295.8px;
-	width: 295.8px;
-}
-
 .row {
 	margin-top: 15px;
 }
+
 .box {
 	border: 1px solid gray;
+}
+
+img {
+	max-width: 100%;
 }
