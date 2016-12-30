@@ -6,6 +6,8 @@
 	max-width: 1000px;
 	margin:0 auto;
 	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -20,25 +22,26 @@
 	clear: both;
 }
 
-.col-4 {
+.col-4, .col-12 {
 	float: left;
 	padding-left: 1.04166666%;
   	padding-right: 1.04166666%;
-  	width: 33%;
 }
 
-/*@media only screen and (max-width: 640px) {
-	.col-4 {
-		width: 100%;
-		padding-left: 10px;
-		Padding-right: 10px;
-	} 
+.col-4 {
+	width: 100%;
 }
+
+.col-12 {
+		width: 100%;
+	}
 
 @media only screen and (min-width: 640px) {
 	.col-4 {
 		width: 33%;
 	}
+}
 
-}*/
+
+
 
