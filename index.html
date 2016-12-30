@@ -1,44 +1,81 @@
-* {
-	box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<meta charset="utf-8" name="Star Wars Card Page for Thinkful Responsive CSS class">
+  <title>Star Wars Responsive Challenge</title>
 
-.row {
-	max-width: 1000px;
-	margin:0 auto;
-	margin-top: 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.row::before,
-.row::after {
-	display: table;
-	content: '';
-}
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
-.row::after {
-	clear: both;
-}
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-.col-4 {
-	float: left;
-	padding-left: 1.04166666%;
-  	padding-right: 1.04166666%;
-  	width: 33%;
-}
+  <!-- Stylesheets -->
 
-/*@media only screen and (max-width: 640px) {
-	.col-4 {
-		width: 100%;
-		padding-left: 10px;
-		Padding-right: 10px;
-	} 
-}
+</head>
+<body>
+	<main>
 
-@media only screen and (min-width: 640px) {
-	.col-4 {
-		width: 33%;
-	}
+		<div class="row">
+      <div class="col-12 nav">
+				<h2>Star Wars Characters</h2>
+				<p>Incomplete list</p>
+		  </div>
+    </div>
 
-}*/
+		<div class="row">
+      <div class="col-4">
+        <div class="box">
+        	<img src="images/rey_square.png">
+        	<p><b>Ray</b></br></br>Protagonist, from Tatooine</p>
+        </div>
+      </div>
 
+      <div class="col-4">
+        <div class="box">
+        	<img src="images/finn_square.png">
+        	<p><b>Finn</b></br></br>Storm Trooper, befriends Ray</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box">
+        	<img src="images/kylo_square.png">
+        	<p><b>Kylo</b></br></br>Main villain, or is he?</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="row">
+     <div class="col-4">
+        <div class="box">
+          <img src="images/poe_square.png">
+          <p><b>Poe</b></br></br>Neutral pilot</p>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="box">
+          <img src="images/chewbacca_square.png">
+          <p><b>Chewbacca</b></br></br>A great first mate</p>
+        </div>
+     </div>
+
+      <div class="col-4">
+        <div class="box">
+          <img src="images/yoda_square.png">
+          <p><b>Yoda</b></br></br>Wise old Jedi master</p>
+        </div>
+      </div>
+    </div>
+
+	</main>
+</body>
+
+</html>
